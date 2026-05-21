@@ -5,7 +5,7 @@ function run_group_HBM_VFDM_HBJM_HBCM(groupId, dataFile)
 clearvars -except groupId dataFile; clc; close all;
 
 if nargin < 2 || isempty(dataFile)
-    DATA_FILE = char([27969 21464 25968 25454 46 120 108 115 120]); % Encoded legacy rheology data filename
+    DATA_FILE = 'Supp_data_1.xlsx'; % Encoded legacy rheology data filename
 else
     DATA_FILE = dataFile;
 end
